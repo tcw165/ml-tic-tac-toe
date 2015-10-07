@@ -1,0 +1,34 @@
+{
+  "name": "Tic-Tac-Toe",
+  "version": "0.0.1",
+  "description": "A tic-tac-toe server for robots fighting!",
+  "license": "MIT",
+  "author": {
+    "name": "boyw165",
+    "email": "boyw165@gmail.com"
+  },
+  "scripts": {
+    "start": "make clean-build && node dist/server/index.js",
+    "client": "make clean-build && node dist/client/index.js",
+    "bot": "echo constructing..."
+  },
+  "engines": {
+    "node": "^0.12.7"
+  },
+  "keywords": [
+    "algorithm",
+    "machine learning",
+    "game"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boyw165/ml-tic-tac-toe.git"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "websocket": "^1.0.22"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
